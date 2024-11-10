@@ -1,0 +1,4 @@
+service_id,service_description
+269.0.1,Weekday
+269.0.2,Saturday
+269.0.3,Sunday/Holiday
