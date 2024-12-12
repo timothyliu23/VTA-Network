@@ -27,15 +27,16 @@ The goal of this project is to analyze and enhance the resiliency of the VTA tra
 The repository is organized as follows:
 /data
 
-- transit_network_inbound_multi2.gml # GML file of the transit network /scripts
-- analysis.py # Python script for network analysis (TBD)
+- transit_network_inbound_multi2.gml # orignal GML file of the transit network /scripts
+- gtfs_vta_network_data.gml # The updated network dataset
+- VTA_Network.ipynb # Python script for network analysis 
 - /gtfs_vta # Bus route information includes stops, schedule, and runtime etc.
 
 - ---
 
 ## Data
 
-The primary dataset is the **VTA transit network**, which has been converted to a GML file for analysis. Data includes:
+The primary dataset is the **VTA transit network** GTFS data, which has been converted to a GML file for analysis. Data includes:
 - Nodes: Stations/stops in the network.
 - Edges: Connections (routes) between stations.
 
@@ -49,6 +50,7 @@ The following tools and libraries were used for this project:
   - [NetworkX](https://networkx.org/) - For graph analysis.
   - [Matplotlib](https://matplotlib.org/) - For visualizing results.
   - [Pandas](https://pandas.pydata.org/) - For handling data.
+  -  https://github.com/Data-Monkey/GTFS-NetworkX/blob/master/GTFStoGraph.py - for sequencing stops
 
 ---
 
