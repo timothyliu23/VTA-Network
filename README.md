@@ -56,6 +56,7 @@ The following tools and libraries were used for this project:
 
 ## Usage
 
-1. Clone the repository:
-(TBD)
+1. Clone the repository
+2. Run the main file. The main file will print out the result
+3. For graph visulization purpose. Open the graph file using software such as Gephi.
 
